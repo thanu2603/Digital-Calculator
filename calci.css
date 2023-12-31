@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(52, 51, 51);
+}
+.myCalci{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 5%;
+    background-color: transparent;
+    box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
+}
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background-color: transparent;
+    box-shadow: 0px 3px 15px rbga(84,84,84,0.1);
+    color: white;
+    text-align: right;
+    cursor: pointer;
+}
+input::placeholder{
+    color: white;
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: white;
+    box-shadow: 0px 3px 15px rgba(113,115,119,0.3);
+    cursor: pointer;
+}
+.operator{
+    box-shadow: 0px 3px 15px rgba(113,115,119,0.9);
+    background-color: rgb(45, 44, 44);
+}
+.equal{
+    background-color: orange;
+    cursor: pointer;
+}
